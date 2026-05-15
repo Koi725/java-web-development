@@ -17,8 +17,8 @@ import jakarta.ws.rs.core.MediaType;
 
 @Path("/rooms")
 public class RoomResources {
-  private Gson gson = new Gson();
-  private List<Room> rooms = new ArrayList<>();
+  private static Gson gson = new Gson();
+  private static List<Room> rooms = new ArrayList<>();
 
   @GET
   @Produces(MediaType.APPLICATION_JSON)
