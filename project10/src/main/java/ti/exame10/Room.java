@@ -4,6 +4,7 @@ public class Room {
     private int number ;
     private String type ;
     private boolean available ;
+    private double pricePerNight;
 
     public Room(){};
 
@@ -36,4 +37,6 @@ public class Room {
     public void setAvailable(boolean available) {
         this.available = available;
     }
+    public double getPricePerNight() { return pricePerNight; }
+    public void setPricePerNight(double pricePerNight) { this.pricePerNight = pricePerNight; }
 }
