@@ -1,0 +1,8 @@
+ti/exame/soap/package-info.class
+ti/exame/soap/GetPetsByOwnerRequest.class
+ti/exame/exercicio1/PetEndpoint.class
+ti/exame/soap/GetPetsByOwnerResponse.class
+ti/exame/exercicio1/WebServiceConfig.class
+ti/exame/exercicio1/Exercicio1Application.class
+ti/exame/soap/ObjectFactory.class
+ti/exame/soap/GetPetsByOwnerResponse$Pet.class
